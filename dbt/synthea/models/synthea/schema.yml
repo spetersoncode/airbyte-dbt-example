@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: synthea
+    database: synthea
+    schema: public_load
+    tables:
+      - name: patients
+        description: "Patients from the Synthea dataset"
+      - name: observations
+        description: "Observations from the Synthea dataset"
